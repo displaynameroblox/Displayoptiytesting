@@ -80,7 +80,7 @@ local screenGui = Instance.new("ScreenGui")
 screenGui.Name = "NextSpotifyGUI"
 screenGui.ResetOnSpawn = false
 screenGui.IgnoreGuiInset = true
-screenGui.Parent = player:WaitForChild("PlayerGui")
+screenGui.Parent = player.PlayerGui
 
 -- ========== Loading Overlay ==========
 local loadingFrame = Instance.new("Frame")
